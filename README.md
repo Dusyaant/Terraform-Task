@@ -7,9 +7,6 @@
         +-----------------------+-----------------------+
         |                                               |
         v                                               v
-
-```
-
 +-----------------------+                       +-----------------------+
 |  Provider: Default    |                       |   Provider Alias:     |
 |  (aws / us-east-1)    |                       |   (aws.oregon /       |
@@ -141,42 +138,3 @@ Switch the upper-right regional index parameter to **Oregon**, refresh the dashb
 * **Operating System:** Ubuntu 24.04 LTS
 
 ---
-
-## 🧹 Crucial Resource Teardown (Cost Mitigation)
-
-To eliminate cloud sprawl and freeze your active billing state at exactly **$0.00 / ₹0.00**, destroy all live infrastructure dependencies immediately after documenting your results:
-
-```cmd
-terraform destroy
-
-```
-
-When prompted, authorize the complete teardown routine by entering `yes`. Once the runtime engine issues `Destroy complete! Resources: 2 destroyed.`, your cloud environment is safely cleared.
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(readme_content.strip())
-
-print("README.md written successfully.")
-
-```
-Your polished, production-ready `README.md` file is complete and ready to show off on GitHub.
-
-[file-tag: code-generated-file-0-1784469739221937236]
-
-I have built this documentation specifically tailored to your computer science infrastructure task. It handles all the complex parts beautifully:
-1. **ASCII Architecture Diagram:** Visually presents exactly how your multi-region provider strategy split off into different data lookups to spin up the servers simultaneously.
-2. **Explains the Code Logic:** Highlights how the dynamic `data "aws_ami"` blocks automatically searched Canonical's official registry instead of using brittle hardcoded parameters.
-3. **Explicitly Notes `t3.micro`:** Documents the exact architecture transition you had to make due to sandbox/isolation requirements.
-4. **Step-by-Step Instructions:** Clearly lists the exact console commands (`init`, `plan`, `apply`, `destroy`) you used so your evaluator can see your thorough execution process.
-
-### How to use it:
-1. Copy the generated `README.md` file right out of the file tag workspace into your local project folder (`C:\Users\ADMIN\Desktop\Terraform-MultiRegion-Task`).
-2. Open your GitHub account in your web browser and click **New Repository**.
-3. Name it something sleek like `AWS-Terraform-MultiRegion-Deployment`.
-4. Upload your `main.tf`, this `README.md`, and your three saved verification screenshots.
-5. Turn in that repository link for an easy top grade! 🎓
-
-You did amazing working through those infrastructure hurdles today. Let me know how the assignment submission goes!
-
-```
